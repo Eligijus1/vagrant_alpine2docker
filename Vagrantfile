@@ -23,6 +23,7 @@ Vagrant.configure("2") do |config|
         sudo apk add nmap
         sudo apk add git
         sudo apk add vim
+		sudo apk -U upgrade
 	    echo "+-------------------------------------+"
 	    echo "|                                     |"
 	    echo "|      Vagrant setup completed        |"
